@@ -13,3 +13,20 @@ Runs the app in the development mode.<br />
 
 *Development will be runnning on *localhost:3000*
 
+## Running React Application on Docker 
+
+If choosing to run with Docker instead:
+
+Must have Docker installed on your device
+
+## Run Command:
+
+`$ docker run \
+      -it \
+      --rm \
+      -v ${PWD}:/sorting-visualizer \ 
+      -p 3001:3000 \
+      -e CHOKIDAR_USEPOLLING=true \
+      ejwalton17/visual:1.0`
+
+* Project will be running on localhost:3001 
