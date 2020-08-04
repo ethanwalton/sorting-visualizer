@@ -9,5 +9,7 @@ In the project directory, you can run:
 
 Runs the app in the development mode.<br />
 
-#Please be sure to run ### `npm install` within the directory first
+*Please be sure to run `npm install` within the directory first and then run `npm start`
+
+*Development will be runnning on *localhost:3000*
 
