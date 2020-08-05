@@ -21,12 +21,12 @@ Must have Docker installed on your device
 
 ## Run Command:
 
-`$ docker run \
-      -it \
-      --rm \
-      -v ${PWD}:/sorting-visualizer \ 
-      -p 3001:3000 \
-      -e CHOKIDAR_USEPOLLING=true \
-      ejwalton17/visual:1.0`
+`$ docker run \`
+     `-it \`
+     `--rm \`
+     `-v ${PWD}:/sorting-visualizer \`
+     `-p 3001:3000 \`
+     `-e CHOKIDAR_USEPOLLING=true \`
+     `ejwalton17/visual:1.0`
 
 * Project will be running on localhost:3001 
